@@ -60,7 +60,7 @@ function askPrompt() {
     makeRows(userNumber, userNumber) 
     const gridItem = document.querySelectorAll(".grid-item");  
     gridItem.forEach(item => {
-      item.addEventListener("mouseover", addBlack) 
+      item.addEventListener("mouseover", randomColor) 
     })
   }
   else {
